@@ -2,6 +2,7 @@
 name = "cleanup-job"
 main = "src/index.ts"
 compatibility_date = "2024-08-21"
+account_id = "9afa0c9be58a0bb6d2f7d43f6ec2fedb"
 
 # Cron Triggers
 # Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
@@ -15,4 +16,4 @@ crons = ["0 3 * * *"] # 0 3 * * * = run once a day at 3 AM
 # Note: Use secrets to store sensitive data.
 # - https://developers.cloudflare.com/workers/configuration/secrets/
 [vars]
-ACCOUNT_ID = "<your-project-account-id>"
+ACCOUNT_ID = "9afa0c9be58a0bb6d2f7d43f6ec2fedb"
